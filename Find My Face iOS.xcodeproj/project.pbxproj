@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A5C27EC22DDAC2200C0FBB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5C27EB22DDAC2200C0FBB4 /* AppDelegate.swift */; };
+		1A5C27EE22DDAC2200C0FBB4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5C27ED22DDAC2200C0FBB4 /* ViewController.swift */; };
+		1A5C27F122DDAC2200C0FBB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A5C27EF22DDAC2200C0FBB4 /* Main.storyboard */; };
+		1A5C27F322DDAC2800C0FBB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A5C27F222DDAC2800C0FBB4 /* Assets.xcassets */; };
+		1A5C27F622DDAC2800C0FBB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A5C27F422DDAC2800C0FBB4 /* LaunchScreen.storyboard */; };
+		1A5C280022DDAF4800C0FBB4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1A5C27FF22DDAF4800C0FBB4 /* GoogleService-Info.plist */; };
+		1A6DAC7122E0CC0F008B1107 /* FavFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6DAC7022E0CC0F008B1107 /* FavFlowLayout.swift */; };
+		1A6DAC7322E0CC53008B1107 /* FavCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6DAC7222E0CC53008B1107 /* FavCell.swift */; };
+		1A80B46B22E0912B00F17750 /* MatchPhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A80B46A22E0912A00F17750 /* MatchPhotosViewController.swift */; };
+		1A80B46D22E092F400F17750 /* FirebasePhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A80B46C22E092F400F17750 /* FirebasePhotoCell.swift */; };
+		1A80B46F22E095E700F17750 /* CustomFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A80B46E22E095E700F17750 /* CustomFlowLayout.swift */; };
+		1AD8DD0022DE390E0061067A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD8DCFF22DE390E0061067A /* HomeViewController.swift */; };
+		1AD8DD0222DE3ADC0061067A /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD8DD0122DE3ADC0061067A /* TabBarViewController.swift */; };
+		1AD8DD0422DE3BEC0061067A /* FavouritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD8DD0322DE3BEC0061067A /* FavouritesViewController.swift */; };
+		1AD8DD0622DE3C080061067A /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD8DD0522DE3C080061067A /* AccountViewController.swift */; };
+		A27CF8F96773FDBB8A11FC48 /* Pods_Find_My_Face_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20714E30002204A33BD38B6D /* Pods_Find_My_Face_iOS.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		041B405AA5B55F7F54B3248F /* Pods-Find My Face iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Find My Face iOS.release.xcconfig"; path = "Target Support Files/Pods-Find My Face iOS/Pods-Find My Face iOS.release.xcconfig"; sourceTree = "<group>"; };
+		1A5C27E822DDAC2200C0FBB4 /* Find My Face iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Find My Face iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A5C27EB22DDAC2200C0FBB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1A5C27ED22DDAC2200C0FBB4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1A5C27F022DDAC2200C0FBB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1A5C27F222DDAC2800C0FBB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A5C27F522DDAC2800C0FBB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A5C27F722DDAC2800C0FBB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A5C27FF22DDAF4800C0FBB4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1A6DAC7022E0CC0F008B1107 /* FavFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavFlowLayout.swift; sourceTree = "<group>"; };
+		1A6DAC7222E0CC53008B1107 /* FavCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavCell.swift; sourceTree = "<group>"; };
+		1A80B46A22E0912A00F17750 /* MatchPhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchPhotosViewController.swift; sourceTree = "<group>"; };
+		1A80B46C22E092F400F17750 /* FirebasePhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebasePhotoCell.swift; sourceTree = "<group>"; };
+		1A80B46E22E095E700F17750 /* CustomFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFlowLayout.swift; sourceTree = "<group>"; };
+		1AD8DCFF22DE390E0061067A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1AD8DD0122DE3ADC0061067A /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		1AD8DD0322DE3BEC0061067A /* FavouritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesViewController.swift; sourceTree = "<group>"; };
+		1AD8DD0522DE3C080061067A /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		20714E30002204A33BD38B6D /* Pods_Find_My_Face_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Find_My_Face_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		325EC3F308658FCAC5C0C9FC /* Pods-Find My Face iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Find My Face iOS.debug.xcconfig"; path = "Target Support Files/Pods-Find My Face iOS/Pods-Find My Face iOS.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A5C27E522DDAC2200C0FBB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A27CF8F96773FDBB8A11FC48 /* Pods_Find_My_Face_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A5C27DF22DDAC2200C0FBB4 = {
+			isa = PBXGroup;
+			children = (
+				1A5C27EA22DDAC2200C0FBB4 /* Find My Face iOS */,
+				1A5C27E922DDAC2200C0FBB4 /* Products */,
+				634565827CF072F602666F59 /* Pods */,
+				FCB67A1BE235DD6EE2411C36 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1A5C27E922DDAC2200C0FBB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A5C27E822DDAC2200C0FBB4 /* Find My Face iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A5C27EA22DDAC2200C0FBB4 /* Find My Face iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1A80B47322E0C8A000F17750 /* FavCollection */,
+				1A80B47222E0C86B00F17750 /* MatchCollection */,
+				1A5C27EB22DDAC2200C0FBB4 /* AppDelegate.swift */,
+				1A5C27ED22DDAC2200C0FBB4 /* ViewController.swift */,
+				1A5C27EF22DDAC2200C0FBB4 /* Main.storyboard */,
+				1A5C27F222DDAC2800C0FBB4 /* Assets.xcassets */,
+				1A5C27F422DDAC2800C0FBB4 /* LaunchScreen.storyboard */,
+				1A5C27F722DDAC2800C0FBB4 /* Info.plist */,
+				1A5C27FF22DDAF4800C0FBB4 /* GoogleService-Info.plist */,
+				1AD8DCFF22DE390E0061067A /* HomeViewController.swift */,
+				1AD8DD0122DE3ADC0061067A /* TabBarViewController.swift */,
+				1AD8DD0522DE3C080061067A /* AccountViewController.swift */,
+			);
+			path = "Find My Face iOS";
+			sourceTree = "<group>";
+		};
+		1A80B47222E0C86B00F17750 /* MatchCollection */ = {
+			isa = PBXGroup;
+			children = (
+				1A80B46A22E0912A00F17750 /* MatchPhotosViewController.swift */,
+				1A80B46C22E092F400F17750 /* FirebasePhotoCell.swift */,
+				1A80B46E22E095E700F17750 /* CustomFlowLayout.swift */,
+			);
+			path = MatchCollection;
+			sourceTree = "<group>";
+		};
+		1A80B47322E0C8A000F17750 /* FavCollection */ = {
+			isa = PBXGroup;
+			children = (
+				1AD8DD0322DE3BEC0061067A /* FavouritesViewController.swift */,
+				1A6DAC7022E0CC0F008B1107 /* FavFlowLayout.swift */,
+				1A6DAC7222E0CC53008B1107 /* FavCell.swift */,
+			);
+			path = FavCollection;
+			sourceTree = "<group>";
+		};
+		634565827CF072F602666F59 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				325EC3F308658FCAC5C0C9FC /* Pods-Find My Face iOS.debug.xcconfig */,
+				041B405AA5B55F7F54B3248F /* Pods-Find My Face iOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FCB67A1BE235DD6EE2411C36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20714E30002204A33BD38B6D /* Pods_Find_My_Face_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A5C27E722DDAC2200C0FBB4 /* Find My Face iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A5C27FA22DDAC2800C0FBB4 /* Build configuration list for PBXNativeTarget "Find My Face iOS" */;
+			buildPhases = (
+				15FE48B767EECF042711B9FB /* [CP] Check Pods Manifest.lock */,
+				1A5C27E422DDAC2200C0FBB4 /* Sources */,
+				1A5C27E522DDAC2200C0FBB4 /* Frameworks */,
+				1A5C27E622DDAC2200C0FBB4 /* Resources */,
+				BA1B98BF9D596E1B5E5DC62A /* [CP] Embed Pods Frameworks */,
+				68D04EB8819733D6668071A0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Find My Face iOS";
+			productName = "Find My Face iOS";
+			productReference = 1A5C27E822DDAC2200C0FBB4 /* Find My Face iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A5C27E022DDAC2200C0FBB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Find My Face";
+				TargetAttributes = {
+					1A5C27E722DDAC2200C0FBB4 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 1A5C27E322DDAC2200C0FBB4 /* Build configuration list for PBXProject "Find My Face iOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A5C27DF22DDAC2200C0FBB4;
+			productRefGroup = 1A5C27E922DDAC2200C0FBB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A5C27E722DDAC2200C0FBB4 /* Find My Face iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A5C27E622DDAC2200C0FBB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A5C27F622DDAC2800C0FBB4 /* LaunchScreen.storyboard in Resources */,
+				1A5C280022DDAF4800C0FBB4 /* GoogleService-Info.plist in Resources */,
+				1A5C27F322DDAC2800C0FBB4 /* Assets.xcassets in Resources */,
+				1A5C27F122DDAC2200C0FBB4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15FE48B767EECF042711B9FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Find My Face iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68D04EB8819733D6668071A0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Find My Face iOS/Pods-Find My Face iOS-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Find My Face iOS/Pods-Find My Face iOS-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Find My Face iOS/Pods-Find My Face iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA1B98BF9D596E1B5E5DC62A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Find My Face iOS/Pods-Find My Face iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Find My Face iOS/Pods-Find My Face iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Find My Face iOS/Pods-Find My Face iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A5C27E422DDAC2200C0FBB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A80B46B22E0912B00F17750 /* MatchPhotosViewController.swift in Sources */,
+				1A6DAC7322E0CC53008B1107 /* FavCell.swift in Sources */,
+				1AD8DD0222DE3ADC0061067A /* TabBarViewController.swift in Sources */,
+				1A5C27EE22DDAC2200C0FBB4 /* ViewController.swift in Sources */,
+				1AD8DD0622DE3C080061067A /* AccountViewController.swift in Sources */,
+				1A5C27EC22DDAC2200C0FBB4 /* AppDelegate.swift in Sources */,
+				1A80B46D22E092F400F17750 /* FirebasePhotoCell.swift in Sources */,
+				1A6DAC7122E0CC0F008B1107 /* FavFlowLayout.swift in Sources */,
+				1AD8DD0422DE3BEC0061067A /* FavouritesViewController.swift in Sources */,
+				1A80B46F22E095E700F17750 /* CustomFlowLayout.swift in Sources */,
+				1AD8DD0022DE390E0061067A /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1A5C27EF22DDAC2200C0FBB4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A5C27F022DDAC2200C0FBB4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1A5C27F422DDAC2800C0FBB4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A5C27F522DDAC2800C0FBB4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A5C27F822DDAC2800C0FBB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1A5C27F922DDAC2800C0FBB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A5C27FB22DDAC2800C0FBB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 325EC3F308658FCAC5C0C9FC /* Pods-Find My Face iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3N87PDKWCV;
+				INFOPLIST_FILE = "Find My Face iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.findmyface.Find-My-Face-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A5C27FC22DDAC2800C0FBB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 041B405AA5B55F7F54B3248F /* Pods-Find My Face iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3N87PDKWCV;
+				INFOPLIST_FILE = "Find My Face iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.findmyface.Find-My-Face-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A5C27E322DDAC2200C0FBB4 /* Build configuration list for PBXProject "Find My Face iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A5C27F822DDAC2800C0FBB4 /* Debug */,
+				1A5C27F922DDAC2800C0FBB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A5C27FA22DDAC2800C0FBB4 /* Build configuration list for PBXNativeTarget "Find My Face iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A5C27FB22DDAC2800C0FBB4 /* Debug */,
+				1A5C27FC22DDAC2800C0FBB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A5C27E022DDAC2200C0FBB4 /* Project object */;
+}
